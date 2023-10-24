@@ -1,0 +1,713 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/styles.min.css?_v=20231024162932" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<picture><source srcset="img/logo1.webp" type="image/webp"><img src="img/logo1.png" alt="logo" /></picture>
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".main-slider" class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="#" data-goto=".lots" class="menu__link">Аукцион</a></li>
+							<li class="menu__item"><a href="#" data-goto=".text" class="menu__link">О проекте</a></li>
+							<li class="menu__item"><a href="#" data-goto=".quotes" class="menu__link">Партнерам</a></li>
+							<li class="menu__item"><a href="#" data-goto=".footer" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-da=".menu__body,768,1" href="" class="actions-header__region"><span>Выбор Региона</span></a>
+					<div class="actions-header__user user-header">
+						<div class="user-header__icon">
+							<picture><source srcset="img/userMenu.webp" type="image/webp"><img src="img/userMenu.png" alt="usermenu" /></picture>
+						</div>
+						<ul class="user-header__menu">
+							<li><a class="user-header__link user-header__link--1">Выбор региона</a></li>
+							<li><a class="user-header__link user-header__link--2">Личный кабинет</a></li>
+							<li><a class="user-header__link user-header__link--3">Мои ставки</a></li>
+							<li><a class="user-header__link user-header__link--4">Мои лоты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section data-watch="navigator" class="main-slider swiper">
+				<div class="main-slider__body swiper-wrapper">
+					<div class="main-slider__item item-main-slider swiper-slide">
+						<div class="item-main-slider__content">
+							<div class="item-main-slider__container">
+								<div class="title">
+									<div class="title__item">Только эксклюзивные</div>
+									<div class="title__main title__main--white">Лоты под аукцион и свобоДную продажу</div>
+								</div>
+								<div class="item-main-slider__text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по
+									покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также
+									оказываем сопутствубщие услуги с продажей редких и дорогих вещей
+								</div>
+								<a href="#" class="item-main-slider__button button">
+									<span class="button__body"><span>присоединиться</span></span>
+								</a>
+							</div>
+						</div>
+
+						<div class="item-main-slider__bg">
+							<picture><source srcset="img/imagebg.webp" type="image/webp"><img src="img/imagebg.jpg" alt="background" /></picture>
+						</div>
+					</div>
+					<!-- Second test slide start-->
+					<div class="main-slider__item item-main-slider swiper-slide">
+						<div class="item-main-slider__content">
+							<div class="item-main-slider__container">
+								<div class="title">
+									<div class="title__item">Только эксклюзивные</div>
+									<div class="title__main title__main--white">Лоты под аукцион и свобоДную продажу</div>
+								</div>
+								<div class="item-main-slider__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolor voluptate doloribus, animi
+									quia dolores exercitationem nobis ullam nihil accusantium, labore quos, deleniti quasi repellendus
+									sunt veniam dolorum quisquam nulla delectus explicabo ipsa. Possimus tempora minus ullam rerum,
+									totam dolores tenetur autem officiis hic consequatur tempore consectetur sint iure illum.
+								</div>
+								<a href="#" class="item-main-slider__button button">
+									<span class="button__body"><span>присоединиться</span></span>
+								</a>
+							</div>
+						</div>
+
+						<div class="item-main-slider__bg">
+							<picture><source srcset="img/imagebg.webp" type="image/webp"><img src="img/imagebg.jpg" alt="background" /></picture>
+						</div>
+					</div>
+					<!-- Second test slide end-->
+				</div>
+				<div class="main-slider__control control-main-slider">
+					<div class="control-main-slider__arrow control-main-slider__arrow--prev swiper-button-prev"></div>
+					<div class="control-main-slider__decor"><picture><source srcset="img/ellips.webp" type="image/webp"><img src="img/ellips.png" alt="" /></picture></div>
+					<div class="control-main-slider__arrow control-main-slider__arrow--next swiper-button-next"></div>
+				</div>
+			</section>
+			<section data-watch="navigator" data-watch-threshold="0.3" class="lots">
+				<div class="lots__container">
+					<div class="lots__header block-header">
+						<div class="block-header__title title">
+							<div class="title__item">Популярные</div>
+							<div class="title__main title__main title__main--bold">лоты под аукцион</div>
+						</div>
+						<div class="block-header__decor block-decor">
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+							<div class="block-decor__icon"><picture><source srcset="img/lots/watchIcon.webp" type="image/webp"><img src="img/lots/watchIcon.png" alt="" /></picture></div>
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="lots__slider slider-lots swiper">
+						<div class="slider-lots__body swiper-wrapper">
+							<div class="slider-lots__slide swiper-slide">
+								<div class="lot">
+									<div class="lot__header">
+										<a href="#" class="lot__image-ibg"><picture><source srcset="img/lots/item1.webp" type="image/webp"><img src="img/lots/item1.png" alt="watch" /></picture></a>
+										<div class="lot__timer timer-lot">
+											<div class="timer-lot__icon">
+												<picture><source srcset="img/lots/sandclock.webp" type="image/webp"><img src="img/lots/sandclock.png" alt="" /></picture>
+											</div>
+											<div class="timer-lot__time">3:21:45:37</div>
+										</div>
+									</div>
+									<a href="#" class="lot__title">Arnold & Son Worldtimer discovery of antarctica</a>
+									<div class="lot__info info-lot">
+										<div class="info-lot__stat">
+											<div class="info-lot__icon"><picture><source srcset="img/lots/eye.webp" type="image/webp"><img src="img/lots/eye.png" alt="" /></picture></div>
+											<div class="info-lot__value">1 098</div>
+										</div>
+										<div class="info-lot__bet bet-info-lot">
+											<div class="bet-info-lot__label">Текущая ставка</div>
+											<div class="bet-info-lot__value">18 999 203</div>
+											<div class="bet-info-lot__currency">₽</div>
+										</div>
+										<div class="info-lot__stat">
+											<div class="info-lot__icon info-lot__icon--palm"><picture><source srcset="img/lots/palm.webp" type="image/webp"><img src="img/lots/palm.png" alt="" /></picture></div>
+											<div class="info-lot__value">75</div>
+										</div>
+									</div>
+									<a href="#" class="lot__button button button--small">
+										<span class="button__body"><span>поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots__slide swiper-slide">
+								<div class="lot">
+									<div class="lot__header">
+										<a href="#" class="lot__image-ibg"><picture><source srcset="img/lots/item2.webp" type="image/webp"><img src="img/lots/item2.png" alt="vine" /></picture></a>
+										<div class="lot__timer timer-lot">
+											<div class="timer-lot__icon">
+												<picture><source srcset="img/lots/sandclock.webp" type="image/webp"><img src="img/lots/sandclock.png" alt="" /></picture>
+											</div>
+											<div class="timer-lot__time">3:21:45:37</div>
+										</div>
+									</div>
+									<a href="#" class="lot__title">Chateau Lafite 1949</a>
+									<div class="lot__info info-lot">
+										<div class="info-lot__stat">
+											<div class="info-lot__icon"><picture><source srcset="img/lots/eye.webp" type="image/webp"><img src="img/lots/eye.png" alt="" /></picture></div>
+											<div class="info-lot__value">756</div>
+										</div>
+										<div class="info-lot__bet bet-info-lot">
+											<div class="bet-info-lot__label">Текущая ставка</div>
+											<div class="bet-info-lot__value">245 050</div>
+											<div class="bet-info-lot__currency">₽</div>
+										</div>
+										<div class="info-lot__stat">
+											<div class="info-lot__icon info-lot__icon--palm"><picture><source srcset="img/lots/palm.webp" type="image/webp"><img src="img/lots/palm.png" alt="" /></picture></div>
+											<div class="info-lot__value">5</div>
+										</div>
+									</div>
+									<a href="#" class="lot__button button button--small">
+										<span class="button__body"><span>поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots__slide swiper-slide">
+								<div class="lot">
+									<div class="lot__header">
+										<a href="#" class="lot__image-ibg"><picture><source srcset="img/lots/item3.webp" type="image/webp"><img src="img/lots/item3.png" alt="watch" /></picture></a>
+										<div class="lot__timer timer-lot">
+											<div class="timer-lot__icon">
+												<picture><source srcset="img/lots/sandclock.webp" type="image/webp"><img src="img/lots/sandclock.png" alt="" /></picture>
+											</div>
+											<div class="timer-lot__time">3:21:45:37</div>
+										</div>
+									</div>
+									<a href="#" class="lot__title">Rolex Paul Newman Daytona</a>
+									<div class="lot__info info-lot">
+										<div class="info-lot__stat">
+											<div class="info-lot__icon"><picture><source srcset="img/lots/eye.webp" type="image/webp"><img src="img/lots/eye.png" alt="" /></picture></div>
+											<div class="info-lot__value">11</div>
+										</div>
+										<div class="info-lot__bet bet-info-lot">
+											<div class="bet-info-lot__label">Текущая ставка</div>
+											<div class="bet-info-lot__value">3 245 000</div>
+											<div class="bet-info-lot__currency">₽</div>
+										</div>
+										<div class="info-lot__stat">
+											<div class="info-lot__icon info-lot__icon--palm"><picture><source srcset="img/lots/palm.webp" type="image/webp"><img src="img/lots/palm.png" alt="" /></picture></div>
+											<div class="info-lot__value">3</div>
+										</div>
+									</div>
+									<a href="#" class="lot__button button button--small">
+										<span class="button__body"><span>поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots__slide swiper-slide">
+								<div class="lot">
+									<div class="lot__header">
+										<a href="#" class="lot__image-ibg"><picture><source srcset="img/lots/item4.webp" type="image/webp"><img src="img/lots/item4.png" alt="watch" /></picture></a>
+										<div class="lot__timer timer-lot">
+											<div class="timer-lot__icon">
+												<picture><source srcset="img/lots/sandclock.webp" type="image/webp"><img src="img/lots/sandclock.png" alt="" /></picture>
+											</div>
+											<div class="timer-lot__time">3:21:45:37</div>
+										</div>
+									</div>
+									<a href="#" class="lot__title">Diamond Bracer 240 carats</a>
+									<div class="lot__info info-lot">
+										<div class="info-lot__stat">
+											<div class="info-lot__icon"><picture><source srcset="img/lots/eye.webp" type="image/webp"><img src="img/lots/eye.png" alt="" /></picture></div>
+											<div class="info-lot__value">456</div>
+										</div>
+										<div class="info-lot__bet bet-info-lot">
+											<div class="bet-info-lot__label">Текущая ставка</div>
+											<div class="bet-info-lot__value">10 346 000</div>
+											<div class="bet-info-lot__currency">₽</div>
+										</div>
+										<div class="info-lot__stat">
+											<div class="info-lot__icon info-lot__icon--palm"><picture><source srcset="img/lots/palm.webp" type="image/webp"><img src="img/lots/palm.png" alt="" /></picture></div>
+											<div class="info-lot__value">22</div>
+										</div>
+									</div>
+									<a href="#" class="lot__button button button--small">
+										<span class="button__body"><span>поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="slider-lots__control control-slider-lots">
+							<div class="control-slider-lots__arrow control-slider-lots__arrow--left">
+								<picture><source srcset="img/lots/arrow_left.webp" type="image/webp"><img src="img/lots/arrow_left.png" alt="arrow left" /></picture>
+							</div>
+							<a class="control-slider-lots__link">все лоты</a>
+							<div class="control-slider-lots__arrow control-slider-lots__arrow--right">
+								<picture><source srcset="img/lots/arrow_right.webp" type="image/webp"><img src="img/lots/arrow_right.png" alt="arrow right" /></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="categories">
+				<div class="categories__container">
+					<div class="categories__row">
+						<!-- row 1 column 1 "clock" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon1.webp" type="image/webp"><img src="img/categories/icon1.png" alt="clock icon" /></picture>
+								</div>
+								<div class="item__title">часы</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/clocks.webp" type="image/webp"><img src="img/categories/clocks.png" alt="clocks" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 1 column 2 "jewelry" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon2.webp" type="image/webp"><img src="img/categories/icon2.png" alt="jewel icon" /></picture>
+								</div>
+								<div class="item__title">Ювелирные изделия</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/jevelery.webp" type="image/webp"><img src="img/categories/jevelery.png" alt="jewelry" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 1 column 3 "auto" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon3.webp" type="image/webp"><img src="img/categories/icon3.png" alt="auto icon" /></picture>
+								</div>
+								<div class="item__title">Автотранспорт и лодки</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/auto_and_boats.webp" type="image/webp"><img src="img/categories/auto_and_boats.png" alt="auto boat" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 2 column 1 "accesories" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon4.webp" type="image/webp"><img src="img/categories/icon4.png" alt="clock icon" /></picture>
+								</div>
+								<div class="item__title">Аксессуары</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/accesories.webp" type="image/webp"><img src="img/categories/accesories.png" alt="accesories" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 2 column 2 "realestate" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon5.webp" type="image/webp"><img src="img/categories/icon5.png" alt="realestate icon" /></picture>
+								</div>
+								<div class="item__title">Недвижимость</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/realestate.webp" type="image/webp"><img src="img/categories/realestate.png" alt="realestate" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 2 column 3 "hitech" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon6.webp" type="image/webp"><img src="img/categories/icon6.png" alt="hitech icon" /></picture>
+								</div>
+								<div class="item__title">часы</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/hitech.webp" type="image/webp"><img src="img/categories/hitech.png" alt="hitech" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 3 column 1 "clothes" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon7.webp" type="image/webp"><img src="img/categories/icon7.png" alt="clothes icon" /></picture>
+								</div>
+								<div class="item__title">Одежда и обувь</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/clothes.webp" type="image/webp"><img src="img/categories/clothes.png" alt="clothes" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 3 column 2 "art" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon8.webp" type="image/webp"><img src="img/categories/icon8.png" alt="art icon" /></picture>
+								</div>
+								<div class="item__title">Предметы искусства</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/art.webp" type="image/webp"><img src="img/categories/art.png" alt="art" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+						<!-- row 3 column 3 "alcofood" -->
+						<div class="categories__column">
+							<div class="categories__item item">
+								<a href="#" class="item__link"></a>
+								<div class="item__icon">
+									<picture><source srcset="img/categories/icon9.webp" type="image/webp"><img src="img/categories/icon9.png" alt="alco_n_food icon" /></picture>
+								</div>
+								<div class="item__title">Алкоголь и еда</div>
+								<div class="item__decor">
+									<img src="img/categories/cat_decor.svg" alt="decor" />
+								</div>
+								<div class="item__bg-ibg">
+									<picture><source srcset="img/categories/alco_n_food.webp" type="image/webp"><img src="img/categories/alco_n_food.png" alt="alco_n_food" /></picture>
+								</div>
+							</div>
+							<div class="categories__decor"><span></span></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="text">
+				<div class="text__container">
+					<div class="text__body">
+						<p>
+							Мы рады приветствовать вас на уникальном лакшери аукционе, здесь вы сможете найти достойные для себя
+							лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом
+							купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок
+							в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости
+							является относительно новым и обретает все большую популярность.
+						</p>
+						<p>
+							Мы рады приветствовать вас на уникальном лакшери аукционе, здесь вы сможете найти достойные для себя
+							лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом
+							купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок
+							в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости
+							является относительно новым и обретает все большую популярность.
+						</p>
+						<p>
+							Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом купли-продажи
+							коммерческой, жилой, и муниципальной недвижимости, в том числе квартир.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="services">
+				<div class="services__container">
+					<div class="services__header block-header">
+						<div class="block-header__title title">
+							<div class="title__item">Дополнительные</div>
+							<div class="title__main title__main title__main--bold title__main--white">услуги</div>
+						</div>
+						<div class="block-header__decor block-decor">
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+							<div class="block-decor__icon"><picture><source srcset="img/services/gearIcon.webp" type="image/webp"><img src="img/services/gearIcon.png" alt="" /></picture></div>
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="services__row">
+						<div class="services__column">
+							<div class="services__item item-service">
+								<a href="#" class="item-service__image">
+									<picture><source srcset="img/services/01.webp" type="image/webp"><img src="img/services/01.png" alt="" /></picture>
+								</a>
+								<a href="#" class="item-service__title">Экспертная оценка</a>
+								<div class="item-service__text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный
+								</div>
+								<a href="" class="item-service__button"><span>Подробнее</span></a>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__item item-service">
+								<a href="#" class="item-service__image">
+									<picture><source srcset="img/services/02.webp" type="image/webp"><img src="img/services/02.png" alt="" /></picture>
+								</a>
+								<a href="#" class="item-service__title">заказ комплектующих</a>
+								<div class="item-service__text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный
+								</div>
+								<a href="" class="item-service__button"><span>Подробнее</span></a>
+							</div>
+						</div>
+						<div class="services__column">
+							<div class="services__item item-service">
+								<a href="#" class="item-service__image">
+									<picture><source srcset="img/services/03.webp" type="image/webp"><img src="img/services/03.png" alt="" /></picture>
+								</a>
+								<a href="#" class="item-service__title">ремонт и реставрация</a>
+								<div class="item-service__text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный
+								</div>
+								<a href="" class="item-service__button"><span>Подробнее</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-watch="navigator" class="quotes">
+				<div class="quotes__container">
+					<div class="quotes__header block-header">
+						<div class="block-header__title title">
+							<div class="title__item">Интересные</div>
+							<div class="title__main title__main title__main--bold">Цитаты</div>
+						</div>
+						<div class="block-header__decor block-decor">
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+							<div class="block-decor__icon"><picture><source srcset="img/quotes/Icon.webp" type="image/webp"><img src="img/quotes/Icon.png" alt="" /></picture></div>
+							<div class="block-decor__items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="quotes__slider slider-qoutes">
+						<div class="slider-qoutes__body swiper-wrapper">
+							<div class="slider-qoutes__slide swiper-slide">
+								<div class="slider-qoutes__image">
+									<picture><source srcset="img/quotes/MT.webp" type="image/webp"><img src="img/quotes/MT.png" alt="" /></picture>
+								</div>
+								<div class="slider-qoutes__content">
+									<div class="slider-qoutes__qoute">
+										«Легче одурачить людей, чем убедить их в том, что они одурачены»
+									</div>
+									<div class="slider-qoutes__author">
+										<p>Марк Твен</p>
+										<p>1835-1910</p>
+									</div>
+								</div>
+							</div>
+							<!-- второй тестовый слайд -->
+							<div class="slider-qoutes__slide swiper-slide">
+								<div class="slider-qoutes__image">
+									<picture><source srcset="img/quotes/MT.webp" type="image/webp"><img src="img/quotes/MT.png" alt="" /></picture>
+								</div>
+								<div class="slider-qoutes__content">
+									<div class="slider-qoutes__qoute">«Слухи о моей смерти немного преувеличены»</div>
+									<div class="slider-qoutes__author">
+										<p>Марк Твен</p>
+										<p>1835-1910</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-qoutes__control control-slider-qoutes">
+							<div class="control-slider-qoutes__decor"></div>
+							<div class="control-slider-qoutes__link">
+								<div class="control-slider-qoutes__circle"></div>
+							</div>
+							<div class="control-slider-qoutes__decor"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div data-watch="navigator" class="info">
+				<div class="info__container">
+					<div class="info__row">
+						<div class="info__column">
+							<section class="info__block">
+								<h3 class="info__title title-info">
+									<span><img src="img/info/news.svg" alt="newspaper icon" /></span>
+									<span>Новости</span>
+								</h3>
+								<div class="info__content">
+									<div class="info__item">
+										<div class="info__date">13.08.2022</div>
+										<a href="#" class="info__label">Уникальный аукцион, здесь вы сможете найти</a>
+										<div class="info__text">
+											Продажа товаров, ценных бумаг, имущества предприятий, произведений искусства и других объектов,
+											которая...
+										</div>
+									</div>
+									<div class="info__item">
+										<div class="info__date">06.12.2022</div>
+										<a href="#" class="info__label">Достойные лоты</a>
+										<div class="info__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quia consequatur, ut, magni
+											harum dicta repellat molestias ipsum ducimus accusantium ullam rerum saepe! In recusandae odio
+											quos blanditiis aliquam quod....
+										</div>
+									</div>
+									<div class="info__item">
+										<div class="info__date">11.05.2022</div>
+										<a href="#" class="info__label">Уникальный аукцион, здесь вы сможете найти</a>
+										<div class="info__text">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium totam blanditiis repellat
+											molestiae! Doloribus veritatis maxime sit eveniet explicabo expedita....
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="info__column">
+							<section class="info__block">
+								<h3 class="info__title title-info">
+									<span><img src="img/info/events.svg" alt="flag icon" /></span>
+									<span>События</span>
+								</h3>
+								<div class="info__content">
+									<div class="info__item">
+										<a href="#" class="info__label">Уникальный аукцион, здесь вы сможете найти</a>
+										<div class="info__text">
+											Продажа товаров, ценных бумаг, имущества предприятий, произведений искусства и других объектов,
+											которая...
+										</div>
+									</div>
+									<div class="info__item">
+										<a href="#" class="info__label">Достойные лоты</a>
+										<div class="info__text">
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quia consequatur, ut, magni
+											harum dicta repellat molestias ipsum ducimus accusantium ullam rerum saepe! In recusandae odio
+											quos blanditiis aliquam quod....
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="info__column">
+							<div class="info__subscribe subscribe">
+								<div class="subscribe__title title-info">
+									<span><img src="img/info/envelope.svg" alt="envelope icon" /></span>
+									<span>Подписка</span>
+								</div>
+								<div class="subscribe__body">
+									<div class="subscribe__column">
+										<div class="subscribe__text">
+											Для получения уведомлений о новых предложениях, введите адрес своей электронной почты
+										</div>
+									</div>
+									<div class="subscribe__column">
+										<form action="#" class="subscribe__form form-subscribe">
+											<div class="form-subscribe__input">
+												<input autocomplete="off" data-required="email" type="text" name="form[]" data-error="Please provide correct e-mail adress" placeholder="Ваш e-mail" class="input" />
+											</div>
+											<button class="form-subscribe__button" type="submit"><span>OK</span></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer" data-watch="navigator">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="#" class="footer__logo">
+						<picture><source srcset="img/footer/footer_logo.webp" type="image/webp"><img src="img/footer/footer_logo.png" alt="logo" /></picture>
+					</a>
+					<div data-da=".footer__container, 767" class="footer__info">Все права защищены © 2023</div>
+				</div>
+				<div class="footer__column footer__column--full">
+					<nav class="footer__menu">
+						<ul class="footer__list">
+							<li>
+								<a href="#" class="footer__link" data-goto=".page">Главная</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link" data-goto=".lots">Аукцион</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link" data-goto=".text">О проекте</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Партнерам</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link" data-goto=".footer">Контакты</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link" data-goto=".info">Новости</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">FAQ</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Реклама</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Соглашение</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Регистрация</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link" data-goto=".services">Услуги</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<a href="tel:+7495222222" class="footer__phone"><small>+7</small> (495) 22-22-22</a>
+					<a href="tel:+7495222222" class="footer__feedback"><span>Обратная связь</span></a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20231024162932"></script>
+</body>
+
+</html>
